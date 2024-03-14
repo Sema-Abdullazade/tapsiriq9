@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+.container {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+}
+
+
+#yuxari {
+  background-color: yellow;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+header ul li a {
+  font-size: 22px;
+  color: rgb(27, 16, 88);
+}
+
+
+.product__desc {
+  text-align: center;
+  color: rgb(14, 5, 53);
+  padding: 300px;
+  font-size: 33px;
+  margin: 20px 0px;
+}
+
+.product__desc h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+
+#sss {
+  text-decoration: underline yellow;
+}
+
+
+.product__desc p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+/*.products__list {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-wrap: wrap;
+  gap: var(--product-gap);
+}*/
+#send {
+  padding: 10px;
+  width: 200px;
+  height: 60px;
+  border: none;
+  background: rgb(2, 153, 184);
+  background: linear-gradient(90deg, rgb(0, 18, 56) 48%, rgb(0, 18, 56) 86%);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  transition: 0.9s;
+}
+
+#arxafon {
+  background-image: url(./backgraund_image.png);
+  background-position: top;
+  height: 100vh;
+  top: 50%;
+  background-repeat: no-repeat;
+}
+
+
+#car {
+  background-image: url(./car.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 500px;
+  height: 50vh;
+  background-size: 1000px;
+  animation-name: demo;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes demo {
+
+  0%,
+  50%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(100px);
+  }
+
+  75% {
+    transform: translateX(-100px);
+  }
+
+}
+
+.son {
+  font-size: 15px;
+  color: rgb(89, 137, 226);
+  text-align: center;
+}
+
+.son h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 45px;
+  color: rgb(0, 18, 56);
+  padding: 15px;
+}
+
+/*.product {
+  padding-top: 0px;
+  width: 320px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}*/
+
+
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: row;
+  align-items: end;
+  margin: 5px;
+  height: 360px;
+  width: 280px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 0px 5px 2px rgba(212, 212, 212, 0.75);
+  transition: 0.4s;
+
+}
+
+
+.sağtərəf {
+  padding-top: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.sağtərəf .date{
+  background-color: rgb(207, 207, 207);
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.açıqlama {
+  color: white;
+  padding: 10px;
+  width: 100%;
+  font-size: 12px;
+  font-family: "Slackside One", cursive;
+}
+
+h5 {
+  position: absolute;
+  bottom: 45px;
+  left: 5px;
+  font-size: 15px;
+  color: white;
+  font-family: "Slackside One", cursive;
+}
+
+
+#photo1 {
+  margin-top: 300px;
+  background-image: url(https://turlar.az/uploads/news/product_946682891029300.jpg);
+}
+
+#photo1:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 4px rgba(29, 68, 145, 0.75);
+}
+
+#photo2 {
+  margin-top: 300px;
+  background-image: url(https://cdn.unitycms.io/images/CanIqPDcKPPAUPN6OTH2t_.jpg?op=ocroped&val=1200,1200,1000,1000,0,0&sum=moj1ooxfxaA);
+}
+
+#photo2:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 4px rgba(29, 68, 145, 0.75);
+}
+
+
+#photo3 {
+  margin-top: 100px;
+  background-image: url(https://www.a-z-hayvanlar.com/wp-content/uploads/2022/04/Fil-2-300x200.jpg)
+}
+
+#photo3:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 4px rgba(29, 68, 145, 0.75);
+}
+
+
+#photo4 {
+  margin-top: 100px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxxfzX2Knh-Gjta2koc0O6ClpzAf3KjF0__HeZII0XDUMpEIcsXbxvZ8wPUXPTGXV53HA&usqp=CAU);
+}
+
+#photo4:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 4px rgba(29, 68, 145, 0.75);
+}
+  /*https://turlar.az/uploads/news/product_946682891029300.jpg finlandiya
+https://cdn.unitycms.io/images/CanIqPDcKPPAUPN6OTH2t_.jpg?op=ocroped&val=1200,1200,1000,1000,0,0&sum=moj1ooxfxaA   spitzberg
+https://www.a-z-hayvanlar.com/wp-content/uploads/2022/04/Fil-2-300x200.jpg  mega Turkey
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxxfzX2Knh-Gjta2koc0O6ClpzAf3KjF0__HeZII0XDUMpEIcsXbxvZ8wPUXPTGXV53HA&usqp=CAU mega turkey*/
+
+  /* section {
+  width: 700px;
+  height: 400px;
+  background-color: #fff;
+  margin: 20px auto;
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  animation-name: demo;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation: demo 5s linear infinite;
+  position: absolute;
+} */
+
+  /* section:hover .box {
+  animation-play-state: paused;
+} */
+
+  /* @keyframes demo {
+  from {
+    background-color: red;
+    border-radius: 50%;
+  }
+  to {
+    background-color: blue;
+  }
+} */
+
+  /* @keyframes demo {
+  0% {
+    top: 0;
+    left: 0;
+  }
+
+  25% {
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+  }
+
+  50% {
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+  }
+
+  75% {
+    top: 100%;
+    left: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+  }
+} */
+
+
+  /* .demo {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-top: 1px solid blue;
+  border-radius: 50%;
+  margin: 20px auto;
+  animation: loading 1s linear infinite alternate;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+} */
+
+  /* .zero {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.zero span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.zero span:nth-of-type(1) {
+  animation: loading 1s 1s infinite linear;
+}
+
+.zero span:nth-of-type(2) {
+  animation: loading 1s 0.667s infinite linear;
+}
+
+.zero span:nth-of-type(3) {
+  animation: loading 1s 0.333s infinite linear;
+
+}
+
+@keyframes loading {
+  0% {
+    background-color: rgba(0, 0, 0, 1);
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  100% {
+    transform: translateY(0px);
+    background-color: rgba(0, 0, 0, 0);
+  }
+} */
+
+  /* h2 {
+  font-size: 36px;
+} */
+
+
+
+  /* Responsive */
+
+
+
+
+
+
+
+
+
+  /*.responsive__btn {
+  border: 0;
+  background-color: transparent;
+  font-size: 22px;
+  color: rgb(150, 39, 39);
+  display: none ;
+}*/
+
+  /* Product */
+
+
+
+  /*:root {
+  --product-gap: 20px;
+  --product-row-count: 4;
+}
+
+.product {
+  width: calc(100% / var(--product-row-count) - (var(--product-gap) - 
+  (var(--product-gap) / var(--product-row-count))));
+  background-color: white;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.product__about button {
+  padding: 5px 10px;
+  background-color: yellow;
+  border: none;
+}*/
