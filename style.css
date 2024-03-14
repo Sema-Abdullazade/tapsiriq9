@@ -221,7 +221,7 @@ h5 {
 
 
 #photo1 {
-  margin-top: 300px;
+  margin-top: 100px;
   background-image: url(https://turlar.az/uploads/news/product_946682891029300.jpg);
 }
 
@@ -231,7 +231,7 @@ h5 {
 }
 
 #photo2 {
-  margin-top: 300px;
+  margin-top: 100px;
   background-image: url(https://cdn.unitycms.io/images/CanIqPDcKPPAUPN6OTH2t_.jpg?op=ocroped&val=1200,1200,1000,1000,0,0&sum=moj1ooxfxaA);
 }
 
@@ -261,192 +261,5 @@ h5 {
   transform: scale(1.05);
   box-shadow: 0px 0px 10px 4px rgba(29, 68, 145, 0.75);
 }
-  /*https://turlar.az/uploads/news/product_946682891029300.jpg finlandiya
-https://cdn.unitycms.io/images/CanIqPDcKPPAUPN6OTH2t_.jpg?op=ocroped&val=1200,1200,1000,1000,0,0&sum=moj1ooxfxaA   spitzberg
-https://www.a-z-hayvanlar.com/wp-content/uploads/2022/04/Fil-2-300x200.jpg  mega Turkey
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxxfzX2Knh-Gjta2koc0O6ClpzAf3KjF0__HeZII0XDUMpEIcsXbxvZ8wPUXPTGXV53HA&usqp=CAU mega turkey*/
-
-  /* section {
-  width: 700px;
-  height: 400px;
-  background-color: #fff;
-  margin: 20px auto;
-  position: relative;
+ 
 }
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: orange;
-  animation-name: demo;
-  animation-duration: 5s;
-  animation-delay: 2s;
-  animation: demo 5s linear infinite;
-  position: absolute;
-} */
-
-  /* section:hover .box {
-  animation-play-state: paused;
-} */
-
-  /* @keyframes demo {
-  from {
-    background-color: red;
-    border-radius: 50%;
-  }
-  to {
-    background-color: blue;
-  }
-} */
-
-  /* @keyframes demo {
-  0% {
-    top: 0;
-    left: 0;
-  }
-
-  25% {
-    top: 0;
-    left: 100%;
-    transform: translateX(-100%);
-  }
-
-  50% {
-    top: 100%;
-    left: 100%;
-    transform: translate(-100%, -100%);
-  }
-
-  75% {
-    top: 100%;
-    left: 0;
-    transform: translateY(-100%);
-  }
-
-  100% {
-    top: 0;
-    left: 0;
-  }
-} */
-
-
-  /* .demo {
-  width: 40px;
-  height: 40px;
-  border: 1px solid white;
-  border-top: 1px solid blue;
-  border-radius: 50%;
-  margin: 20px auto;
-  animation: loading 1s linear infinite alternate;
-}
-
-@keyframes loading {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(180deg);
-  }
-} */
-
-  /* .zero {
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2px;
-}
-
-.zero span {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.zero span:nth-of-type(1) {
-  animation: loading 1s 1s infinite linear;
-}
-
-.zero span:nth-of-type(2) {
-  animation: loading 1s 0.667s infinite linear;
-}
-
-.zero span:nth-of-type(3) {
-  animation: loading 1s 0.333s infinite linear;
-
-}
-
-@keyframes loading {
-  0% {
-    background-color: rgba(0, 0, 0, 1);
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-5px);
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  100% {
-    transform: translateY(0px);
-    background-color: rgba(0, 0, 0, 0);
-  }
-} */
-
-  /* h2 {
-  font-size: 36px;
-} */
-
-
-
-  /* Responsive */
-
-
-
-
-
-
-
-
-
-  /*.responsive__btn {
-  border: 0;
-  background-color: transparent;
-  font-size: 22px;
-  color: rgb(150, 39, 39);
-  display: none ;
-}*/
-
-  /* Product */
-
-
-
-  /*:root {
-  --product-gap: 20px;
-  --product-row-count: 4;
-}
-
-.product {
-  width: calc(100% / var(--product-row-count) - (var(--product-gap) - 
-  (var(--product-gap) / var(--product-row-count))));
-  background-color: white;
-  text-align: center;
-}
-
-.product img {
-  width: 100%;
-}
-
-.product__about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-
-.product__about button {
-  padding: 5px 10px;
-  background-color: yellow;
-  border: none;
-}*/
